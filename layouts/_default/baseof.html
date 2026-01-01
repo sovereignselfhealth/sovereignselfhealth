@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page Title -->
+    <title>{{ if .IsHome }}{{ .Site.Title }} | Stop Guessing. Start Healing.{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    
+    <!-- Meta Description -->
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    {{- with .Params.image }}
+    <meta property="og:image" content="{{ . | absURL }}">
+    {{- end }}
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}">
+    
+    <!-- Favicon (add your favicon files to /static/) -->
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+    {{- partial "nav.html" . -}}
+    
+    <main>
+        {{- block "main" . }}{{- end }}
+    </main>
+    
+    {{- partial "footer.html" . -}}
+    
+    <!-- Form Handler (Loops.so integration) -->
+    <script src="/js/forms.js"></script>
+</body>
+</html>

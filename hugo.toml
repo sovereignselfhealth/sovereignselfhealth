@@ -1,0 +1,66 @@
+# ===========================================
+# SOVEREIGN SELF HEALTH - Hugo Configuration
+# ===========================================
+# This file controls how Hugo builds your site.
+# You'll rarely need to edit this after initial setup.
+
+baseURL = "https://sovereignselfhealth.com/"
+languageCode = "en-us"
+title = "Sovereign Self Health"
+
+# Clean URLs (yoursite.com/about/ instead of yoursite.com/about.html)
+[permalinks]
+  posts = "/blog/:slug/"
+
+# Build settings
+[build]
+  writeStats = true
+
+# Markdown rendering settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allows raw HTML in Markdown files if needed
+
+# Site-wide parameters (accessible in all templates)
+[params]
+  # Site info
+  description = "Take sovereignty over your health. We identify healing opportunities within your terrain to resolve exhaustion and chronic pain."
+  author = "Sovereign Self Health"
+  
+  # Contact
+  location = "Marion, IA"
+  email = ""  # Add your email when ready
+  
+  # Booking
+  calUrl = "https://cal.com/ssh-fdnp/discovery"
+  
+  # Lead magnet
+  leadMagnetTitle = "Hidden Stressors Checklist"
+
+# Navigation menu
+[menus]
+  [[menus.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menus.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menus.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 3
+  [[menus.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menus.main]]
+    name = "FAQ"
+    url = "/#faq"
+    weight = 5
+  [[menus.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6

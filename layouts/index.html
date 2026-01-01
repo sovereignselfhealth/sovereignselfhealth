@@ -1,0 +1,345 @@
+{{ define "main" }}
+
+<!-- 1. HERO -->
+<section class="hero">
+    <div class="section-inner" style="text-align: center;">
+        <span class="hero-label">For exhausted professionals who've tried everything</span>
+        <h1 class="hero-title">
+            Stop Guessing.<br>
+            <span class="gradient-text">Start Healing.</span>
+        </h1>
+        <p class="hero-subtitle">
+            Find the hidden stressors causing your exhaustion, weight gain, and chronic pain—so you can take full control of your health.
+        </p>
+        
+        <div class="form-card">
+            <h3 class="form-title">Get Your Free {{ .Site.Params.leadMagnetTitle }}</h3>
+            <!-- Loops.so form - we'll configure this together -->
+            <form id="lead-form-hero" class="lead-form">
+                <input type="text" name="firstName" class="form-input" placeholder="First Name" required>
+                <input type="email" name="email" class="form-input" placeholder="Email Address" required>
+                <button type="submit" class="form-button">Send My Checklist</button>
+            </form>
+            <p class="form-disclaimer">No spam. Unsubscribe anytime.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 2. SOCIAL PROOF BAR -->
+<div class="social-proof-bar">
+    <div class="social-proof-inner">
+        <div class="proof-item">
+            <span class="proof-number">90+</span>
+            <span class="proof-label">Day Protocols</span>
+        </div>
+        <div class="proof-item">
+            <span class="proof-number">6</span>
+            <span class="proof-label">Lab Panels</span>
+        </div>
+        <div class="proof-item">
+            <span class="proof-number">100%</span>
+            <span class="proof-label">Virtual Nationwide</span>
+        </div>
+        <!-- Uncomment when you have client numbers
+        <div class="proof-item">
+            <span class="proof-number">XX</span>
+            <span class="proof-label">Clients Helped</span>
+        </div>
+        -->
+    </div>
+</div>
+
+<!-- 3. WHO I HELP -->
+<section class="who-section">
+    <div class="section-inner">
+        <span class="section-label">Who This Is For</span>
+        <h2 class="section-title">You've Been Told Everything Is "Normal"</h2>
+        <p class="section-subtitle">
+            But you know something isn't right. You're tired of band-aid solutions and ready to find the root cause.
+        </p>
+        <div class="who-badges">
+            <span class="who-badge">Chronic fatigue despite "good" sleep</span>
+            <span class="who-badge">Weight that won't budge</span>
+            <span class="who-badge">Brain fog & low motivation</span>
+            <span class="who-badge">Gut issues & food sensitivities</span>
+            <span class="who-badge">Hormone imbalances</span>
+            <span class="who-badge">Stress that never lets up</span>
+        </div>
+    </div>
+</section>
+
+<!-- 4. ABOUT TEASER -->
+<section class="about-teaser">
+    <div class="about-teaser-inner">
+        <div class="about-teaser-image">
+            <!-- Replace with your actual photo -->
+            <img src="/images/headshot.jpg" alt="Kyle - Functional Health Coach" onerror="this.style.display='none'; this.parentElement.innerHTML='[Your Photo]';">
+        </div>
+        <div class="about-teaser-content">
+            <h3>Hi, I'm Kyle</h3>
+            <p>
+                I'm a Functional Diagnostic Nutrition Practitioner and Precision Nutrition Master Health Coach. 
+                I help people who are tired of being tired find the hidden stressors in their biology—and resolve them for good.
+            </p>
+            <div class="cert-badges">
+                <span class="cert-badge">FDN-P</span>
+                <span class="cert-badge">PN Master Coach</span>
+                <span class="cert-badge">PN-SSR</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. TESTIMONIAL -->
+<section class="testimonial-highlight">
+    <div class="card testimonial-card">
+        <p class="testimonial-quote">
+            After years of being told my labs were "normal" while feeling terrible, Kyle helped me find the actual root causes. 
+            Within 90 days, I had more energy than I'd had in years.
+        </p>
+        <p class="testimonial-author">Coming Soon</p>
+        <p class="testimonial-title">Add your first testimonial here</p>
+    </div>
+</section>
+
+<!-- 6. D.R.E.S.S. PROTOCOL -->
+<section id="methodology">
+    <div class="section-inner">
+        <div class="section-header">
+            <span class="section-label">The Methodology</span>
+            <h2 class="section-title">The D.R.E.S.S. Protocol</h2>
+        </div>
+        
+        <div class="protocol-list">
+            <div class="card protocol-card">
+                <span class="protocol-letter">D</span>
+                <div class="protocol-content">
+                    <h3 class="protocol-title">Diet</h3>
+                    <p class="protocol-desc">Genetically-determined fueling analysis to identify your unique metabolic requirements for peak cellular energy.</p>
+                </div>
+            </div>
+            <div class="card protocol-card">
+                <span class="protocol-letter">R</span>
+                <div class="protocol-content">
+                    <h3 class="protocol-title">Rest</h3>
+                    <p class="protocol-desc">Optimizing circadian rhythms and sleep architecture to ensure deep cellular repair and cognitive recovery.</p>
+                </div>
+            </div>
+            <div class="card protocol-card">
+                <span class="protocol-letter">E</span>
+                <div class="protocol-content">
+                    <h3 class="protocol-title">Exercise</h3>
+                    <p class="protocol-desc">Prescriptive movement patterns that stimulate vitality and lean mass without triggering chronic cortisol elevation.</p>
+                </div>
+            </div>
+            <div class="card protocol-card">
+                <span class="protocol-letter">S</span>
+                <div class="protocol-content">
+                    <h3 class="protocol-title">Stress Reduction</h3>
+                    <p class="protocol-desc">Identifying and resolving the internal hidden stressors—including pathogens, toxins, and systemic inflammation.</p>
+                </div>
+            </div>
+            <div class="card protocol-card">
+                <span class="protocol-letter">S</span>
+                <div class="protocol-content">
+                    <h3 class="protocol-title">Supplementation</h3>
+                    <p class="protocol-desc">Targeted, data-backed support to bridge metabolic gaps until biological sovereignty and function are achieved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 7. FUNCTIONAL DIFFERENCE TABLE -->
+<section id="difference" class="bg-secondary">
+    <div class="section-inner">
+        <div class="section-header">
+            <span class="section-label">Why This Works</span>
+            <h2 class="section-title">The Functional Difference</h2>
+        </div>
+        
+        <div class="table-wrapper">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Focus Area</th>
+                        <th>Standard Sick-Care</th>
+                        <th>Sovereign Self</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Core Objective</td>
+                        <td>Symptom Suppression</td>
+                        <td><span class="check-inline">✓</span> Functional Root Cause</td>
+                    </tr>
+                    <tr>
+                        <td>Lab Interpretation</td>
+                        <td>Statistical 'Average'</td>
+                        <td><span class="check-inline">✓</span> Biological 'Optimal'</td>
+                    </tr>
+                    <tr>
+                        <td>Strategy</td>
+                        <td>Transactional / Reactive</td>
+                        <td><span class="check-inline">✓</span> Transformational / Data-Driven</td>
+                    </tr>
+                    <tr>
+                        <td>End Goal</td>
+                        <td>Absence of Disease</td>
+                        <td><span class="check-inline">✓</span> Peak Vitality & Sovereignty</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- 8. LABS SECTION -->
+<section id="labs">
+    <div class="section-inner">
+        <div class="section-header">
+            <span class="section-label">The Data</span>
+            <h2 class="section-title">Biological <span class="gradient-text">Intelligence</span></h2>
+            <p class="section-subtitle">Functional lab testing that reveals what standard blood work misses.</p>
+        </div>
+        
+        <div class="grid-3">
+            <div class="card lab-card">
+                <div class="lab-icon">🍽️</div>
+                <h3 class="lab-name">Metabolic Typing</h3>
+                <p class="lab-type">MT - Fueling Analysis</p>
+                <p class="lab-desc">Genetically-determined nutritional requirements for peak cellular energy.</p>
+            </div>
+            <div class="card lab-card">
+                <div class="lab-icon">📈</div>
+                <h3 class="lab-name">Salivary Hormones</h3>
+                <p class="lab-type">SHP - Cycle Mapping</p>
+                <p class="lab-desc">Measuring cortisol rhythms and sex hormone balance over 24 hours.</p>
+            </div>
+            <div class="card lab-card">
+                <div class="lab-icon">📊</div>
+                <h3 class="lab-name">Metabolic Wellness</h3>
+                <p class="lab-type">MWP - Stress Markers</p>
+                <p class="lab-desc">Liver function, oxidative stress, and protein digestion efficiency.</p>
+            </div>
+            <div class="card lab-card">
+                <div class="lab-icon">📋</div>
+                <h3 class="lab-name">Mucosal Barrier</h3>
+                <p class="lab-type">MBA - Gut Integrity</p>
+                <p class="lab-desc">Assessing the intestinal lining for 'Leaky Gut' and immune activation.</p>
+            </div>
+            <div class="card lab-card">
+                <div class="lab-icon">🔬</div>
+                <h3 class="lab-name">GI-MAP</h3>
+                <p class="lab-type">Gut Pathogens</p>
+                <p class="lab-desc">DNA-based identification of pathogens, parasites, and bacteria.</p>
+            </div>
+            <div class="card lab-card">
+                <div class="lab-icon">😟</div>
+                <h3 class="lab-name">Mediator Response</h3>
+                <p class="lab-type">MRT - Sensitivities</p>
+                <p class="lab-desc">Quantifying white blood cell inflammatory response to 170 foods.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 9. FAQ SECTION -->
+<section id="faq" class="bg-dark">
+    <div class="section-inner">
+        <div class="section-header">
+            <span class="section-label">Questions</span>
+            <h2 class="section-title">Clarity & FAQ</h2>
+        </div>
+        
+        <div class="faq-list">
+            <div class="faq-item">
+                <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                    <span>My doctor says my labs are 'normal' but I feel terrible. Why?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    Because 'normal' is a statistical average of the sick population. We look for 'Optimal' biological function. If you aren't thriving, you aren't normal.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                    <span>I've tried every diet and supplement. How is this different?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    You've been guessing. We use functional data to identify the actual hidden stressors in your gut, hormones, and minerals.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                    <span>What exactly is an FDN-P?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    A health detective. I use high-resolution lab testing to find the 'why' behind your fatigue and teach you how to resolve it.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                    <span>Do you take insurance?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    No. Remaining sovereign from insurance allows for 90-minute educational sessions and deep analysis that transactional care cannot offer.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                    <span>Can we work together if I'm not in Marion, Iowa?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    Absolutely. I work virtually with clients nationwide. Lab kits ship directly to your door.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                    <span>How long does it take to see results?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    This is a Session-Based Framework. Most metabolic shifts require a 90-day integration period to see permanent changes.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 10. SECOND LEAD MAGNET (BOOKEND) -->
+<section class="lead-magnet-section bg-secondary">
+    <div class="section-inner" style="text-align: center;">
+        <span class="section-label">Free Resource</span>
+        <h2 class="section-title" style="font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem;">Still Guessing What's Wrong?</h2>
+        <p class="section-subtitle" style="margin-bottom: 2rem;">
+            Download the {{ .Site.Params.leadMagnetTitle }} and start identifying the root causes yourself.
+        </p>
+        
+        <div class="form-card" style="max-width: 480px;">
+            <form id="lead-form-bottom" class="lead-form lead-form-inline">
+                <div class="form-row">
+                    <input type="text" name="firstName" class="form-input" placeholder="First Name" required>
+                    <input type="email" name="email" class="form-input" placeholder="Email Address" required>
+                </div>
+                <button type="submit" class="form-button">Get the Checklist</button>
+            </form>
+            <p class="form-disclaimer">No spam. Unsubscribe anytime.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 11. FINAL CTA -->
+<section class="final-cta">
+    <h2 class="final-cta-title">Ready to Stop Guessing?</h2>
+    <p class="final-cta-subtitle">
+        Book a free 30-minute discovery call. No pressure, no obligation—just clarity on whether this approach is right for you.
+    </p>
+    <a href="{{ .Site.Params.calUrl }}" class="cta-button" target="_blank" rel="noopener">Book Your Free Call</a>
+</section>
+
+{{ end }}

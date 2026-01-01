@@ -1,0 +1,25 @@
+{{/* Footer - appears on every page */}}
+<footer class="site-footer">
+    <div class="footer-inner">
+        <!-- Logo -->
+        <div class="footer-logo">
+            <svg width="32" height="32" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+                <circle cx="50" cy="50" r="45" stroke="#D4AF37" stroke-width="3"/>
+                <path d="M30 50 L50 30 L70 50 L50 70 Z" fill="#D4AF37"/>
+            </svg>
+        </div>
+        
+        <!-- Disclaimer -->
+        <p class="footer-disclaimer">
+            Sovereign Self Health is a health coaching service and does not provide medical advice, diagnosis, or treatment. 
+            The information provided is for educational purposes only and is not intended to diagnose, treat, cure, or prevent any disease. 
+            Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+        </p>
+        
+        <!-- Location -->
+        <p class="footer-location">{{ .Site.Params.location }} • Virtual Nationwide</p>
+        
+        <!-- Copyright -->
+        <p class="footer-copyright">© {{ now.Year }} {{ .Site.Title }}</p>
+    </div>
+</footer>

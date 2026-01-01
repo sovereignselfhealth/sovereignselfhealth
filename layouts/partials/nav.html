@@ -1,0 +1,29 @@
+{{/* Navigation - appears on every page */}}
+<nav class="site-nav" id="nav">
+    <div class="site-nav-inner">
+        <a href="/" class="site-logo">
+            <!-- Logo SVG - replace with your actual logo later -->
+            <svg width="28" height="28" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+                <circle cx="50" cy="50" r="45" stroke="#D4AF37" stroke-width="3"/>
+                <path d="M30 50 L50 30 L70 50 L50 70 Z" fill="#D4AF37"/>
+            </svg>
+            <span class="site-logo-text">Sovereign Self Health</span>
+        </a>
+        
+        <div class="site-links">
+            {{- range .Site.Menus.main }}
+            <a href="{{ .URL }}" class="site-link{{ if $.IsMenuCurrent "main" . }} current{{ end }}">
+                {{ .Name }}
+            </a>
+            {{- end }}
+            <a href="{{ .Site.Params.calUrl }}" class="cta-button" target="_blank" rel="noopener">
+                Book Free Call
+            </a>
+        </div>
+        
+        <!-- Mobile menu button (for later) -->
+        <button class="mobile-menu-btn" aria-label="Toggle menu" style="display: none;">
+            <span></span>
+        </button>
+    </div>
+</nav>

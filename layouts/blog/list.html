@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+<!-- Blog Hero -->
+<section class="page-hero">
+    <div class="section-inner" style="text-align: center;">
+        <span class="section-label">Insights</span>
+        <h1 class="section-title">Education & <span class="gradient-text">Resources</span></h1>
+        <p class="section-subtitle">
+            Deep dives into functional health, stress recovery, and reclaiming biological sovereignty.
+        </p>
+    </div>
+</section>
+
+<!-- Blog Posts Grid -->
+<section>
+    <div class="section-inner">
+        {{ $posts := where .Site.RegularPages "Section" "blog" }}
+        {{ if $posts }}
+        <div class="blog-grid">
+            {{ range $posts.ByDate.Reverse }}
+            <a href="{{ .Permalink }}" class="card blog-card">
+                <div class="blog-image">
+                    {{ with .Params.image }}
+                    <img src="{{ . }}" alt="{{ $.Title }}">
+                    {{ else }}
+                    <span>[Featured Image]</span>
+                    {{ end }}
+                </div>
+                <div class="blog-content">
+                    <p class="blog-meta">
+                        {{ with .Params.category }}{{ . }} • {{ end }}{{ .ReadingTime }} min read
+                    </p>
+                    <h3 class="blog-title">{{ .Title }}</h3>
+                    <p class="blog-excerpt">{{ .Description }}</p>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+        {{ else }}
+        <div style="text-align: center; padding: 4rem 0;">
+            <p class="section-subtitle">No posts yet. Check back soon!</p>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Newsletter CTA -->
+<section class="bg-secondary">
+    <div class="section-inner" style="text-align: center;">
+        <span class="section-label">Stay Updated</span>
+        <h2 class="section-title" style="font-size: 1.75rem;">Get Insights Delivered</h2>
+        <p class="section-subtitle" style="margin-bottom: 2rem;">
+            Join the list for practical tips on stress recovery, gut health, and optimizing your biology.
+        </p>
+        
+        <div class="form-card" style="max-width: 480px;">
+            <form id="blog-newsletter-form" class="lead-form lead-form-inline">
+                <div class="form-row">
+                    <input type="text" name="firstName" class="form-input" placeholder="First Name" required>
+                    <input type="email" name="email" class="form-input" placeholder="Email Address" required>
+                </div>
+                <button type="submit" class="form-button">Subscribe</button>
+            </form>
+            <p class="form-disclaimer">No spam. Unsubscribe anytime.</p>
+        </div>
+    </div>
+</section>
+
+{{ end }}

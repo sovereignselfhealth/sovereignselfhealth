@@ -1,0 +1,104 @@
+{{ define "main" }}
+
+<!-- About Hero -->
+<section class="about-page-hero">
+    <div class="section-inner">
+        <div class="about-hero-section">
+            <div class="about-image">
+                <img src="/images/kyle-headshot.jpg" alt="Kyle - Functional Health Coach" onerror="this.style.display='none'; this.parentElement.innerHTML='[Your Headshot]';">
+            </div>
+            <div class="about-content">
+                <span class="section-label">Meet Your Coach</span>
+                <h1>Kyle</h1>
+                <p>
+                    I'm a Functional Diagnostic Nutrition Practitioner and Precision Nutrition Master Health Coach. 
+                    I help people who are tired of being tired find the hidden stressors in their biology—and resolve them for good.
+                </p>
+                <p>
+                    [Your story goes here — What led you to functional health? What transformation did you experience 
+                    or witness? Why do you do this work? This is where you build trust and connection.]
+                </p>
+                
+                <div class="cert-badges">
+                    <span class="cert-badge">FDN-P Certified</span>
+                    <span class="cert-badge">PN Master Coach</span>
+                    <span class="cert-badge">PN-SSR Certified</span>
+                    <span class="cert-badge">Full PN Suite</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Philosophy Section -->
+<section class="bg-secondary">
+    <div class="section-inner">
+        <div class="section-header">
+            <span class="section-label">Philosophy</span>
+            <h2 class="section-title">What I Believe</h2>
+        </div>
+        
+        <div class="philosophy-content">
+            <div class="philosophy-item">
+                <h3>Your Body Isn't Broken</h3>
+                <p>
+                    [Your belief about the body's innate ability to heal when given the right support. 
+                    Example: "Symptoms are signals, not sentences. Your body is constantly communicating — we just need to learn the language."]
+                </p>
+            </div>
+            <div class="philosophy-item">
+                <h3>Data Over Guesswork</h3>
+                <p>
+                    [Your belief about using functional lab testing to find root causes. 
+                    Example: "I don't guess — I test. Every recommendation is backed by your unique biological data."]
+                </p>
+            </div>
+            <div class="philosophy-item">
+                <h3>Sovereignty Is the Goal</h3>
+                <p>
+                    [Your belief about empowering clients to take control of their own health. 
+                    Example: "My job isn't to create dependence — it's to teach you how your body works so you never need me again."]
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Credentials Section -->
+<section>
+    <div class="section-inner">
+        <div class="section-header">
+            <span class="section-label">Credentials</span>
+            <h2 class="section-title">Training & Certifications</h2>
+        </div>
+        
+        <div class="credentials-grid">
+            <div class="card credential-card">
+                <h3>FDN-P</h3>
+                <p class="credential-full">Functional Diagnostic Nutrition Practitioner</p>
+                <p class="credential-desc">Certified to use functional lab testing to identify healing opportunities and hidden stressors in the body.</p>
+            </div>
+            <div class="card credential-card">
+                <h3>PN Master Coach</h3>
+                <p class="credential-full">Precision Nutrition Level 2 Master Health Coach</p>
+                <p class="credential-desc">Advanced certification in nutrition coaching, behavior change, and sustainable lifestyle transformation.</p>
+            </div>
+            <div class="card credential-card">
+                <h3>PN-SSR</h3>
+                <p class="credential-full">Sleep, Stress Management & Recovery</p>
+                <p class="credential-desc">Specialized training in optimizing circadian rhythms, stress response, and recovery protocols.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="final-cta">
+    <h2 class="final-cta-title">Ready to Work Together?</h2>
+    <p class="final-cta-subtitle">
+        Book a free 30-minute discovery call to see if we're a good fit.
+    </p>
+    <a href="{{ .Site.Params.calUrl }}" class="cta-button" target="_blank" rel="noopener">Book Your Free Call</a>
+</section>
+
+{{ end }}

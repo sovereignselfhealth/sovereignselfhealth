@@ -1,0 +1,76 @@
+{{ define "main" }}
+
+<!-- Contact Hero -->
+<section class="page-hero">
+    <div class="section-inner" style="text-align: center;">
+        <span class="section-label">Get Started</span>
+        <h1 class="section-title">Let's Talk</h1>
+        <p class="section-subtitle">
+            Book your free discovery call or send me a message.
+        </p>
+    </div>
+</section>
+
+<!-- Contact Grid -->
+<section>
+    <div class="section-inner">
+        <div class="contact-grid">
+            <!-- Contact Form -->
+            <div class="card contact-form-card">
+                <h3 class="contact-card-title">Send a Message</h3>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" name="name" class="form-input" placeholder="Your Name" required>
+                    <input type="email" name="email" class="form-input" placeholder="Email Address" required>
+                    <textarea name="message" class="form-input form-textarea" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="form-button">Send Message</button>
+                </form>
+                <p class="form-disclaimer">I'll respond within 24-48 hours.</p>
+            </div>
+            
+            <!-- Cal.com Embed -->
+            <div class="card cal-embed-card">
+                <h3 class="contact-card-title">Book a Discovery Call</h3>
+                <p class="cal-embed-desc">
+                    30 minutes. Free. No obligation. Let's see if we're a good fit.
+                </p>
+                
+                <!-- Cal.com Embed - Replace with your actual embed code -->
+                <div class="cal-embed-placeholder">
+                    <a href="{{ .Site.Params.calUrl }}" class="cta-button" target="_blank" rel="noopener" style="margin-top: 1rem;">
+                        Open Booking Calendar
+                    </a>
+                    <p class="cal-embed-note">
+                        Or embed your Cal.com calendar directly here
+                    </p>
+                </div>
+                
+                <!-- 
+                To embed Cal.com directly, replace the placeholder above with:
+                
+                <div class="cal-embed-container">
+                    <iframe 
+                        src="https://cal.com/ssh-fdnp/discovery?embed=true" 
+                        frameborder="0" 
+                        width="100%" 
+                        height="600"
+                        style="min-height: 600px; border-radius: 1rem;">
+                    </iframe>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Location Info -->
+<section class="bg-secondary">
+    <div class="section-inner" style="text-align: center;">
+        <span class="section-label">Location</span>
+        <h2 class="section-title" style="font-size: 1.75rem;">{{ .Site.Params.location }}</h2>
+        <p class="section-subtitle">
+            Working virtually with clients nationwide. Lab kits ship directly to your door.
+        </p>
+    </div>
+</section>
+
+{{ end }}
