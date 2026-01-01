@@ -4,7 +4,7 @@
 # This file controls how Hugo builds your site.
 # You'll rarely need to edit this after initial setup.
 
-baseURL = "https://sovereignselfhealth.com/"
+baseURL = "https://sovereignselfhealth.pages.dev/"
 languageCode = "en-us"
 title = "Sovereign Self Health"
 
