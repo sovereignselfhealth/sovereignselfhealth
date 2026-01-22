@@ -2,11 +2,10 @@
 <nav class="site-nav" id="nav">
     <div class="site-nav-inner">
         <a href="/" class="site-logo">
-            <!-- Logo SVG - replace with your actual logo later -->
-            <img src="/images/logo.png" alt="Sovereign Self Health" width="28" height="28">
-            <span class="site-logo-text">Sovereign Self Health</span>
+            <span class="site-logo-text"><span class="gradient-text">[SSH]</span> Sovereign Self Health</span>
         </a>
         
+        <!-- Desktop Navigation -->
         <div class="site-links">
             {{- range .Site.Menus.main }}
             <a href="{{ .URL }}" class="site-link{{ if $.IsMenuCurrent "main" . }} current{{ end }}">
@@ -18,9 +17,21 @@
             </a>
         </div>
         
-        <!-- Mobile menu button (for later) -->
-        <button class="mobile-menu-btn" aria-label="Toggle menu" style="display: none;">
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
             <span></span>
         </button>
+    </div>
+    
+    <!-- Mobile Menu (hidden by default) -->
+    <div class="mobile-menu">
+        {{- range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="mobile-link">{{ .Name }}</a>
+        {{- end }}
+        <a href="{{ .Site.Params.calUrl }}" class="mobile-link mobile-cta" target="_blank" rel="noopener">
+            Book Free Call
+        </a>
     </div>
 </nav>

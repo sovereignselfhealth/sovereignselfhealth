@@ -2,34 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/hidden-stressors-checklist/</loc>
+    <loc>https://sovereignselfhealth.com/blog/adrenal-fatigue-is-real/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sovereignselfhealth.com/blog/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sovereignselfhealth.com/categories/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sovereignselfhealth.com/categories/hormones/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sovereignselfhealth.com/categories/hpa-axis/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sovereignselfhealth.com/categories/lab-testing/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sovereignselfhealth.com/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sovereignselfhealth.com/blog/hidden-stressors-checklist/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://sovereignselfhealth.com/categories/stress-management/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/stress-management/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/cortisol-rhythm-broken/</loc>
+    <loc>https://sovereignselfhealth.com/blog/cortisol-rhythm-broken/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/adrenal-fatigue-is-real/</loc>
+    <loc>https://sovereignselfhealth.com/blog/why-sleep-matters/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/why-sleep-matters/</loc>
+    <loc>https://sovereignselfhealth.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://sovereignselfhealth.com/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://sovereignselfhealth.com/services/</loc>
   </url><url>
-    <loc>http://localhost:1313/services/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://sovereignselfhealth.com/tags/</loc>
   </url>
 </urlset>

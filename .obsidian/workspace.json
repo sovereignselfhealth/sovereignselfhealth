@@ -11,10 +11,14 @@
             "id": "856e8242b3d04818",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/adrenal-fatigue-is-real.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "adrenal-fatigue-is-real"
             }
           }
         ]
@@ -173,32 +177,33 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
   "active": "856e8242b3d04818",
   "lastOpenFiles": [
-    "public/categories/stress-management/index.xml",
-    "public/categories/stress-management",
-    "public/blog/hidden-stressors-checklist/index.html",
-    "public/blog/hidden-stressors-checklist",
-    "public/blog/why-sleep-matters/index.html",
-    "public/blog/why-sleep-matters",
-    "public/blog/adrenal-fatigue-is-real/index.html",
-    "public/blog/adrenal-fatigue-is-real",
-    "content/blog/Blog Post test.md",
-    "content/blog/_index.md",
+    "public/images/blog/adrenal-fatigue.jpg",
+    "static/images/blog/adrenal-fatigue.jpg",
+    "static/images/blog/Unconfirmed 142369.crdownload",
+    "public/images/blog",
+    "static/images/blog",
+    "public/images/New folder",
+    "static/images/New folder",
     "Templates/Blog Post.md.md",
-    "content/blog/hidden-stressors-checklist.md",
-    "Templates",
-    "content/blog/cortisol-rhythm-broken.md",
-    "content/blog/why-sleep-matters.md",
+    "content/blog/Blog Post test.md",
     "content/blog/adrenal-fatigue-is-real.md",
-    "hugo_stats.json",
-    "public/categories/index.xml",
+    "content/blog/adrenal-fatigue-is-real v0.md",
+    "content/blog/why-sleep-matters.md",
+    "content/blog/hidden-stressors-checklist.md",
+    "content/blog/cortisol-rhythm-broken.md",
+    "public/categories/hpa-axis/index.xml",
+    "public/categories/hpa-axis",
+    "public/categories/lab-testing/index.xml",
+    "public/categories/lab-testing",
+    "public/categories/hormones/index.xml",
+    "content/_index.md",
+    "content/blog/_index.md",
     "public/images/logo.png",
-    "public/images/kyle-headshot.jpg",
-    "content/_index.md"
+    "public/images/kyle-headshot.jpg"
   ]
 }

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Sovereign Self Health</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://sovereignselfhealth.com/blog/</link>
     <description>Recent content in Blog on Sovereign Self Health</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sovereignselfhealth.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adrenal Fatigue Is Real (Even If Your Doctor Says It Isn&#39;t)</title>
+      <link>https://sovereignselfhealth.com/blog/adrenal-fatigue-is-real/</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://sovereignselfhealth.com/blog/adrenal-fatigue-is-real/</guid>
+      <description>&lt;p&gt;You wake up exhausted despite sleeping 8 hours. You need multiple cups of coffee just to feel human by noon. You hit a wall around 2pm that makes you want to crawl under your desk. But then, right when you should be winding down for bed, you get a second wind—feeling wired, anxious, unable to shut your brain off.&lt;/p&gt;&#xA;&lt;p&gt;You drag yourself to the doctor, certain something is wrong with your adrenal glands.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>3 Hidden Stressors Sabotaging Your Energy</title>
-      <link>http://localhost:1313/blog/hidden-stressors-checklist/</link>
+      <link>https://sovereignselfhealth.com/blog/hidden-stressors-checklist/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/hidden-stressors-checklist/</guid>
+      <guid>https://sovereignselfhealth.com/blog/hidden-stressors-checklist/</guid>
       <description>&lt;p&gt;You&amp;rsquo;ve tried everything: more sleep, cleaner diet, supplements. But you still wake up exhausted.&lt;/p&gt;&#xA;&lt;p&gt;The problem? You&amp;rsquo;re addressing the &lt;em&gt;obvious&lt;/em&gt; stressors while missing the hidden ones.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-blue-light-after-dark&#34;&gt;1. Blue Light After Dark&lt;/h2&gt;&#xA;&lt;p&gt;Your circadian rhythm depends on darkness signals. Even dim screens tell your brain it&amp;rsquo;s still daytime, suppressing melatonin for hours.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What to do:&lt;/strong&gt; Install f.lux on your computer, use blue-blocking glasses after 8 PM, or switch devices to grayscale mode.&lt;/p&gt;</description>
     </item>
     <item>
       <title>5 Signs Your Cortisol Rhythm Is Broken</title>
-      <link>http://localhost:1313/blog/cortisol-rhythm-broken/</link>
+      <link>https://sovereignselfhealth.com/blog/cortisol-rhythm-broken/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/cortisol-rhythm-broken/</guid>
+      <guid>https://sovereignselfhealth.com/blog/cortisol-rhythm-broken/</guid>
       <description>&lt;p&gt;You set an alarm for 6 AM with the best intentions. But when it goes off, you feel like you&amp;rsquo;ve been hit by a truck. Dragging yourself out of bed takes an act of will. Coffee is non-negotiable.&lt;/p&gt;&#xA;&lt;p&gt;Then something strange happens around 10 PM. Just when you should be winding down, you get a second wind. Your brain starts racing. You&amp;rsquo;re suddenly productive—or at least, awake. By midnight, you&amp;rsquo;re still scrolling, still wired, wondering why sleep feels so far away.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blog/adrenal-fatigue-is-real/</link>
+      <link>https://sovereignselfhealth.com/blog/why-sleep-matters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/adrenal-fatigue-is-real/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/blog/why-sleep-matters/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/why-sleep-matters/</guid>
+      <guid>https://sovereignselfhealth.com/blog/why-sleep-matters/</guid>
       <description></description>
     </item>
   </channel>

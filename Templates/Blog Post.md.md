@@ -1,9 +1,12 @@
 ---
 title: "{{title}}"
-date: {{date:YYYY-MM-DD}}
+date:
+  "{ date:YYYY-MM-DD }":
 description: ""
-categories: [""]
+categories:
+  - ""
 draft: false
+image: /images/blog/------.jpg
 ---
 
 ## Introduction

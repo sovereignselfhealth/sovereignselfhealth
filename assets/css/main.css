@@ -1283,7 +1283,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1.4fr;
     gap: 3rem;
-    align-items: center;
+    align-items: start;
     padding: 3rem 0;
 }
 
@@ -1472,9 +1472,74 @@ section {
 /* ===========================================
    Responsive
    =========================================== */
+
+/* Mobile Menu Button - Hidden on desktop */
+.mobile-menu-btn {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile-menu-btn span {
+    width: 24px;
+    height: 2px;
+    background: var(--text-primary);
+    transition: none; /* Instant - no animation */
+}
+
+/* Mobile Menu Container - Hidden by default */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    background: var(--bg-primary);
+    border-top: 1px solid var(--border-color);
+    padding: 1rem 0;
+}
+
+.mobile-menu.active {
+    display: flex;
+}
+
+.mobile-link {
+    padding: 0.75rem 1.5rem;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: none; /* Instant */
+}
+
+.mobile-link:hover {
+    color: var(--text-primary);
+    background: var(--bg-secondary);
+}
+
+.mobile-link.mobile-cta {
+    margin: 0.5rem 1.5rem;
+    padding: 0.7rem 1.5rem;
+    background: var(--cta-primary);
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.mobile-link.mobile-cta:hover {
+    background: var(--cta-hover);
+}
+
 @media (max-width: 768px) {
+    /* Hide desktop nav, show mobile button */
     .site-links {
-        display: none; /* We'll add mobile menu later */
+        display: none;
+    }
+    
+    .mobile-menu-btn {
+        display: flex;
     }
     
     .hero {
@@ -1533,4 +1598,5 @@ section {
     section {
         padding: 3rem 1rem;
     }
+
 }
