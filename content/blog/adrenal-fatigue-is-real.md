@@ -1,6 +1,6 @@
 ---
 title: Adrenal Fatigue Is Real (Even If Your Doctor Says It Isn't)
-date: 2026-01-22
+date: 2025-08-29
 description: Tired all day but wired at night? Your doctor says adrenal fatigue isn't real—but your body tells a different story. Here's what's actually happening with your cortisol levels.
 categories:
   - Hormones

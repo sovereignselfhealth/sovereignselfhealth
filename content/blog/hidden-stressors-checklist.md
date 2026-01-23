@@ -1,6 +1,6 @@
 ---
 title: 3 Hidden Stressors Sabotaging Your Energy
-date: 2025-01-15
+date: 2025-08-01
 description: Most people address sleep and diet, but miss these three sneaky sources of chronic stress that drain energy.
 categories:
   - Stress Management

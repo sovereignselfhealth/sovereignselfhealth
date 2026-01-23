@@ -1,7 +1,7 @@
 ---
 title: 5 Signs Your Cortisol Rhythm Is Broken
 description: Why you're exhausted in the morning but wired at night—and what to do about it.
-date: 2025-01-01
+date: 2025-08-15
 category: Cortisol
 image: /images/blog/cortisol-rhythm-broken.jpg
 weight:

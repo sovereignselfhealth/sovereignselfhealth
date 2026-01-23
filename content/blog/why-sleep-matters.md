@@ -1,6 +1,6 @@
 ---
 title: Why Sleep Matters More Than You Think (And What Your Body Does While You're 'Doing Nothing')
-date: 2026-01-22
+date: 2025-09-05
 description: Think sleep is just downtime? Your body is running critical repair, detox, and hormone regulation processes every night. Here's why sleep is the foundation of health.
 image: /images/blog/why-sleep-matters.jpg
 categories:
