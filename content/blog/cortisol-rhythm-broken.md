@@ -1,9 +1,10 @@
 ---
-title: "5 Signs Your Cortisol Rhythm Is Broken"
-description: "Why you're exhausted in the morning but wired at night—and what to do about it."
+title: 5 Signs Your Cortisol Rhythm Is Broken
+description: Why you're exhausted in the morning but wired at night—and what to do about it.
 date: 2025-01-01
-category: "Cortisol"
-image: ""
+category: Cortisol
+image: /images/blog/cortisol-rhythm-broken.jpg
+weight:
 ---
 
 You set an alarm for 6 AM with the best intentions. But when it goes off, you feel like you've been hit by a truck. Dragging yourself out of bed takes an act of will. Coffee is non-negotiable.

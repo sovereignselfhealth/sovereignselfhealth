@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/adrenal-fatigue-is-real.md",
+                "file": "content/blog/why-sleep-matters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "adrenal-fatigue-is-real"
+              "title": "why-sleep-matters"
             }
           }
         ]
@@ -182,28 +182,39 @@
   },
   "active": "856e8242b3d04818",
   "lastOpenFiles": [
-    "public/images/blog/adrenal-fatigue.jpg",
-    "static/images/blog/adrenal-fatigue.jpg",
-    "static/images/blog/Unconfirmed 142369.crdownload",
-    "public/images/blog",
-    "static/images/blog",
-    "public/images/New folder",
-    "static/images/New folder",
-    "Templates/Blog Post.md.md",
-    "content/blog/Blog Post test.md",
-    "content/blog/adrenal-fatigue-is-real.md",
-    "content/blog/adrenal-fatigue-is-real v0.md",
+    "public/favicon-32x32_gradient.png",
+    "public/favicon-16x16_gradient.png",
+    "public/favicon_gradient.png",
+    "public/favicon_gradient.ico",
+    "public/apple-touch-icon_gradient.png",
+    "public/android-chrome-192x192_gradient.png",
+    "static/favicon-32x32_gradient.png",
+    "static/favicon-16x16_gradient.png",
+    "static/favicon_gradient.png",
+    "static/favicon_gradient.ico",
+    "static/apple-touch-icon_gradient.png",
+    "static/android-chrome-192x192_gradient.png",
+    "content/blog/why-sleep-matters xx.md",
     "content/blog/why-sleep-matters.md",
-    "content/blog/hidden-stressors-checklist.md",
+    "public/tags/deep-sleep/index.xml",
+    "public/tags/deep-sleep",
+    "public/tags/cortisol/index.xml",
+    "public/tags/cortisol",
+    "public/tags/dress-protocol/index.xml",
+    "public/tags/dress-protocol",
+    "public/tags/sleep/index.xml",
+    "public/tags/sleep",
+    "public/images/blog/why-sleep-matters.jpg",
     "content/blog/cortisol-rhythm-broken.md",
-    "public/categories/hpa-axis/index.xml",
-    "public/categories/hpa-axis",
-    "public/categories/lab-testing/index.xml",
-    "public/categories/lab-testing",
-    "public/categories/hormones/index.xml",
-    "content/_index.md",
+    "content/blog/hidden-stressors-checklist.md",
+    "content/blog/why-fdn.md",
     "content/blog/_index.md",
-    "public/images/logo.png",
-    "public/images/kyle-headshot.jpg"
+    "content/blog/adrenal-fatigue-is-real.md",
+    "content/blog/why-sleep-matters x.md",
+    "Templates/Blog Post.md.md",
+    "content/why-fdn.md",
+    "content/blog/Blog Post test.md",
+    "content/blog/adrenal-fatigue-is-real v0.md",
+    "content/_index.md"
   ]
 }

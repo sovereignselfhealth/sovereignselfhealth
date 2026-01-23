@@ -9,6 +9,7 @@ categories:
 draft: false
 image: /images/blog/adrenal-fatigue.jpg
 image-att: Photo by <a href="https://unsplash.com/@marcobian?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marco Bianchetti</a> on <a href="https://unsplash.com/photos/a-group-of-wooden-mannequins-sitting-on-top-of-a-wooden-block-rdscoTsxv80?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+weight:
 ---
 You wake up exhausted despite sleeping 8 hours. You need multiple cups of coffee just to feel human by noon. You hit a wall around 2pm that makes you want to crawl under your desk. But then, right when you should be winding down for bed, you get a second wind—feeling wired, anxious, unable to shut your brain off.
 

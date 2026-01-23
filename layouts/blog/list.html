@@ -17,7 +17,7 @@
         {{ $posts := where .Site.RegularPages "Section" "blog" }}
         {{ if $posts }}
         <div class="blog-grid">
-            {{ range $posts.ByDate.Reverse }}
+            {{ range $posts.ByWeight }}
             <a href="{{ .Permalink }}" class="card blog-card">
                 <div class="blog-image">
                     {{ with .Params.image }}
